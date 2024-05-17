@@ -1,3 +1,8 @@
-*{
-    margin: 0;padding: 0;box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+/* PORT=5000
+MONGO_URI="mongodb+srv://Sufiyan661:4mIY2bPvSq9N3Itx@cluster0.rhlvwnk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" */
