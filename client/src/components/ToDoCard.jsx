@@ -26,8 +26,10 @@ function ToDoCard({ item, getData }) {
       alignItems="center"
       justifyContent="space-between"
       sx={{
+        minHeight: "50px",
         backgroundColor: "white",
         borderRadius: "5px",
+        px: "10px",
         marginY: "10px",
         marginX: { xs: "0px", md: "10px" },
       }}
@@ -54,7 +56,7 @@ function ToDoCard({ item, getData }) {
         </Typography>
       </Box>
       <Box display="flex">
-        <EditToDo />
+        <EditToDo item={item} getData={getData} />
 
         <Tooltip title="Delete">
           <IconButton

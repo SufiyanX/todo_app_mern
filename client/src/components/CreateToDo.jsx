@@ -34,7 +34,7 @@ function CreateToDo({ toDo, setToDo, getData }) {
       }}
     >
       <TextField
-        placeholder="What's your next task?"
+        // placeholder="Wha"
         label="What's your next task?"
         variant="outlined"
         value={toDo}
@@ -43,7 +43,7 @@ function CreateToDo({ toDo, setToDo, getData }) {
           console.log(toDo);
         }}
         size="small"
-        sx={{ backgroundColor: "white", borderRadius: "3px" }}
+        sx={{ backgroundColor: "white", borderRadius: "3px", width: "300px" }}
       />
       <Button
         variant="contained"
